@@ -99,6 +99,7 @@ var couchdb = nock('http://myapp.iriscouch.com')
                   username: 'pgte',
                   email: 'pedro.teixeira@gmail.com'
                  });
+                 
 ```
 
 This setup says that we will intercept every HTTP call to `http://myapp.iriscouch.com`.
